@@ -1,0 +1,308 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	flex-direction: column;
+}
+
+.container{
+	background-color: #e5e5e5;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+}
+
+.container h1{
+	float: left;
+	margin: 10px ;
+	margin-left: 50px;
+	font-size: 2rem;
+	letter-spacing: 1px;
+}
+
+.container a{
+	justify-content: center;
+	align-items: center;
+	margin-left: 25px;
+	font-size: 20px;
+}
+
+button{
+	padding: 7px 20px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	box-shadow: 2px 2px 4px grey;
+	cursor: pointer;
+}
+
+button:hover{
+	box-shadow: 1px 1px 1px grey;
+	background-color: #146de0;
+	color: white;
+}
+
+span{
+	margin-left: 50%;
+	padding: 10px ;
+	position: absolute;
+	top: 4px;
+}
+
+/*        ///////////////////////////       go to top      //////////////////////////// */
+
+
+
+/*        ///////////////////////////      image //////////////////////////// */
+
+.imgbox{
+	border: 2px black;
+	width: 1200PX;
+	height: 500px;
+	overflow: hidden;
+	position: absolute;
+	top: 15%;
+	z-index: -1;
+}
+
+img{
+	width: 1200px;
+}
+
+/*        ///////////////////////////    logo   //////////////////////////// */
+
+.logos{
+	width: 100%;
+	height: 200px;
+	background: black;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	position: absolute;
+	top: 100%;
+	z-index: -1;
+}
+
+.logos h2{
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+	font-size: 2.5rem;
+}
+
+/*        ///////////////////////////    para   //////////////////////////// */
+
+.para{
+	margin-top: 70%;
+	text-align: left;
+	margin-left: 50px;
+}
+
+.para p:nth-of-type(1){
+	font-size: 1.5rem;
+	margin-top: px;
+	margin-bottom: 20px;
+	color: grey;
+}
+
+.para p:nth-of-type(2){
+	font-size: 2.8rem;
+	margin-bottom: 20px;
+}
+
+.para p:nth-of-type(3){
+	font-size: 1.3rem;
+	margin-bottom: 50px;
+	display: Grid;
+	grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+/*        ///////////////////////////    para and phooto   //////////////////////////// */
+
+
+.pp{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 50px;
+	margin: 0px 50px 0px 50px;
+}
+
+[class*=imgpara]{
+	width: 375px;
+	height: 375px;
+	margin-bottom: 30px;
+}
+
+ .pp .imgc{
+	font-size: 1.5rem;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+ .pp .imglc{
+ 	width: 375px;
+ 	font-size: 1.2rem;
+ 	margin-bottom: 30px;
+ 	line-height: 40px;
+
+ }
+
+.pp .rm{
+	font-size: 1.4rem;
+	color: #146de0;
+	margin-bottom: 5%;
+	font-weight: bold;
+	cursor: pointer;
+	font-family: arial;
+}
+
+/*        ///////////////////////////    para on img   //////////////////////////// */
+
+
+.para-on-photo{
+	width: 100%;
+	height: 700px;
+	margin-top: 5%;
+	border: none;
+	border-bottom: 2px solid #e8e4e3;
+	border-top: 2px solid #e8e4e3;
+	align-items: center;
+	margin-bottom: 8%;
+}
+
+.para-on-photo .vision{
+	margin: 100px 50px 100px 0px;
+	width: 55%;
+	height: 500px;
+	float: right;
+	position: absolute;
+	margin-left: 39%;
+	z-index: -1;
+}
+
+.para-on-photo .ppo{
+	margin-top: 15%;
+	width: 600px;
+	height: 250px;
+	background-color: white;
+	padding:  20px 20px 20px 40px;
+	margin-left: 4.5%;
+
+}
+
+.para-on-photo .ppo p:nth-of-type(1){
+	font-size: 18px;
+	color: grey;
+	margin-bottom: 30px;
+}
+
+.para-on-photo .ppo p:nth-of-type(2){
+	font-size: 2.8rem;
+	margin-bottom: 30px;
+}
+
+.para-on-photo .ppo p:nth-of-type(3){
+	font-size: 1.4rem;
+	color: grey;
+	line-height: 40px;
+}
+
+/*        ///////////////////////////    another photo  and paras   //////////////////////////// */
+
+.app{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 50px;
+	margin: 0px 50px 0px 50px;
+}
+
+[class*=another-photo]{
+	width: 375px;
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+ .app .cs{
+	font-size: 16px;
+	color: grey;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+ .app .head{
+ 	width: 375px;
+ 	font-size: 1.1rem;
+ 	margin-bottom: 30px;
+ 	line-height: 30px;
+
+ }
+
+.app .rm1{
+	font-size: 1.1rem;
+	color: grey;
+	margin-bottom: 5%;
+	font-weight: bold;
+	cursor: pointer;
+	font-family: arial;
+}
+
+/*        ///////////////////////////    sign in part   //////////////////////////// */
+
+	.sign{
+		margin-top: 10%;
+		width: 100%;
+		height: 800px;
+		background-color:#edebeb;
+		opacity: .4;
+	}
+
+
+/*        ///////////////////////////    footer   //////////////////////////// */
+
+
+footer{
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 200px;
+	font-size: 1.2rem;
+	display: flex;
+	align-items: center;
+	
+}
+
+footer p{
+	margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
