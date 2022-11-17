@@ -1,6 +1,8 @@
 *{
 	margin: 0px;
 	padding: 0px;
+	outline: none;
+	box-sizing: border-box;
 }
 
 body{
@@ -11,14 +13,14 @@ body{
 	flex-direction: column;
 }
 
-.container{
+.vdarthead{
 	background-color: #e5e5e5;
 	width: 100%;
 	position: fixed;
 	top: 0px;
 }
 
-.container h1{
+.vdarthead h1{
 	float: left;
 	margin: 10px ;
 	margin-left: 50px;
@@ -26,38 +28,35 @@ body{
 	letter-spacing: 1px;
 }
 
-.container a{
+.vdarthead a{
 	justify-content: center;
 	align-items: center;
 	margin-left: 25px;
 	font-size: 20px;
 }
 
-button{
-	padding: 7px 20px;
-	border-radius: 5px;
-	border: none;
-	outline: none;
-	box-shadow: 2px 2px 4px grey;
-	cursor: pointer;
-}
-
-button:hover{
-	box-shadow: 1px 1px 1px grey;
-	background-color: #146de0;
-	color: white;
-}
-
-span{
-	margin-left: 50%;
+ .headlink{
+	margin-left: 65%;
 	padding: 10px ;
-	position: absolute;
-	top: 4px;
 }
+
 
 /*        ///////////////////////////       go to top      //////////////////////////// */
 
-
+.go-to-top{
+	width: 40px;
+	height: 40px;
+	color: white;
+	background-color: black;
+	position: fixed;
+	right: 5%;
+	bottom: 5%;
+	font-size: 25px;
+	padding: 10px;
+	opacity: .8;
+	box-shadow: initial;
+	transition: .5s;
+}
 
 /*        ///////////////////////////      image //////////////////////////// */
 
@@ -260,9 +259,56 @@ img{
 		margin-top: 10%;
 		width: 100%;
 		height: 800px;
-		background-color:#edebeb;
-		opacity: .4;
+		background-color:#f7f7f7;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		padding-top: 7%;
 	}
+
+	.sign p:nth-of-type(1){
+		font-size: 18px;
+		color: grey;
+		margin-bottom: 30px;
+		margin-left: 15%;
+	}
+
+	.sign p:nth-of-type(2){
+		font-size: 2.8rem;
+		margin-left:15%;
+	}
+
+	form{
+		width: 450px;
+		height: min-content;
+		border: grey;
+		
+	}
+
+	label{
+		font-size: 17px;
+	}
+
+	input{
+		margin-top: 15px;
+		padding: 10px;
+		margin-bottom: 15px;
+		font-size: 18px;
+		width: 100%;
+		border: none;
+		outline: none;
+		background-color: transparent;
+		border-bottom: 2px solid gray;
+	}
+
+	.sign .send{
+		width: 90px;
+		height: 40px;
+		margin-top: 50px;
+		font-weight: bold;
+		background-color: #1a1fba;
+		color: white;
+	}
+
 
 
 /*        ///////////////////////////    footer   //////////////////////////// */
@@ -282,6 +328,8 @@ footer{
 footer p{
 	margin-left: 40px;
 }
+
+
 
 
 
