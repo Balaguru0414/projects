@@ -1,0 +1,100 @@
+*{
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+	background: #ecf0f3;
+	font-family: sans-serif;
+
+}
+
+.calc_form{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+form{
+	background-color: #ecf0f3;
+	padding: 15px;
+	border-radius: 30px;
+	box-shadow: inset 5px 5px 12px #ffffff, 5px 5px 12px gray;
+	display: grid;
+	grid-template-columns: repeat(4, 68px);
+}
+
+#calc{
+	grid-column: span 4;
+	height: 70px;
+	width: 260px;
+	background-color: #ecf0f3;
+	box-shadow: inset -5px -5px 12px #ffffff, inset 5px 5px 12px gray;
+	border-radius: 30px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 40px;
+	text-align: end;
+	color: rgb(70, 70, 70);
+	padding: 20px;
+}
+
+.input{
+	height: 48px;
+	width: 48px;
+	background-color: #ecf0f3;
+	box-shadow: inset 5px 5px 12px #ffffff, 5px 5px 12px gray;
+	border-radius: 50%;
+	font-size: 18px;
+	margin: 10px;
+
+}
+
+.input:hover{
+	box-shadow:  5px 5px 12px #ffffff,inset 5px 5px 12px gray;
+	transition: .5s;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#clear-equal{
+	height: 48px;
+	box-shadow: inset 5px 5px 12px #ffffff, 5px 5px 12px gray;
+	border-radius: 25px;
+	font-size: 18px;
+	margin: 10px;
+	grid-column: span 2;
+}
+
+#clear-equal:hover{
+	box-shadow:  5px 5px 12px #ffffff,inset 5px 5px 12px gray;
+	transition: .5s;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
